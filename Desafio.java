@@ -28,6 +28,15 @@ public class Desafio {
         return false;
     }
 
+    // Questão 5
+    public static String inverteString(String str) {
+        StringBuilder reversed = new StringBuilder();
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reversed.append(str.charAt(i));
+        }
+        return reversed.toString();
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -64,6 +73,11 @@ public class Desafio {
             System.out.println("Sequência de Fibonacci até " + numero + ": " + fibonacci);
         }
 
+        // Questão 5
+        System.out.println("Questão 5:");
+        System.out.print("Digite uma string para inverter: ");
+        String entrada = scanner.next();
+        System.out.println("String invertida: " + inverteString(entrada));
 
 
         scanner.close();
