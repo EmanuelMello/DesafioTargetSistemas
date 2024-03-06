@@ -10,7 +10,7 @@ O código calcula a soma dos números de 1 a 13.
 
 ### Questão 2
 
-O código verifica se um número fornecido pertence à sequência de Fibonacci e, se sim, retorna a sequência de Fibonacci até esse ponto.
+O código verifica se um número fornecido pertence à sequência de Fibonacci e, retorna a sequência de Fibonacci até esse ponto.
 
 ### Questão 5
 
